@@ -1,0 +1,24 @@
+.activedControls{
+    color: #6200ee;
+}
+.lineControls{
+    position: absolute;
+    height: 2px;
+    top: 100%;
+    transition: .4s;
+    background-color: #6200ee;
+}
+.activedShowControls{
+    color: #fff;
+    display: inline-block;
+}
+.activedShowControls > span{
+    background: linear-gradient(135deg, rgb(23, 152, 251) 0%, rgb(45, 92, 254) 100%);
+    padding: 0px 8px;
+    border-radius: 6px;
+    color: #fff;
+}
+input[name=search-todo]:focus + i{
+    color: #6200ee;
+    transition: .3s;
+}

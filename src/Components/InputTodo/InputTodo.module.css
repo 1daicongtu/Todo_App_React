@@ -1,0 +1,12 @@
+input[name= title]:focus + label{
+    top: 0;
+    transform: translateY(-50%);
+    transition: .2s;
+    background-color: #fff;
+    color: #007FFF;
+}
+input[name=timetodo]:hover + i{
+    color: #007FFF;
+    
+    transition: .3s;
+}
